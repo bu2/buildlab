@@ -96,7 +96,7 @@ Vagrant.configure(2) do |config|
         docker run hello-world
       fi
 
-      time docker build -t lab .
+      time docker build -t build .
 
       echo 'Total time provisionning VM:'
     )

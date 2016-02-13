@@ -6,4 +6,4 @@ RUN apt-get install -y linux-source dpkg-dev time
 
 ADD build_kernel.sh ./
 
-CMD ["/bin/sh", "build_kernel.sh"]
+CMD ["/bin/bash", "build_kernel.sh"]
